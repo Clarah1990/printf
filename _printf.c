@@ -7,6 +7,7 @@ void print_buffer(char buffer[], int *buff_ind);
  * @format: the string that contains any format specifier
  * Return: returns the number of printed characters
  */
+
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
